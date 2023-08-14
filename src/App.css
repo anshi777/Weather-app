@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4) url("./assets/img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 220px;
+}
+
+.bottom-box {
+  padding: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 12px;
+}
+
+.weather_type {
+  font-weight: 700;
+  padding-right: 20px;
+  padding-top: 100px;
+}
+
+.bold {
+  text-align: center;
+  font-weight: 700;
+}
+
+.input {
+  text-align: center;
+  padding: 1rem;
+}
+
+.input input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  color: #fff;
+  outline: none;
+}
+
+::placeholder {
+  color: #f8f8f8;
+}
+
+.searchbtn {
+  border: 2px solid #000;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 10px;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.searchbtn:hover {
+  background-color: #000;
+}
+
+.errorMessage {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileview {
+    font-size: smaller;
+  }
+  .input input {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+  .searchbtn {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+  .app {
+    background-position: -150px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .app {
+    background-size: stretch;
+  }
+}
+
+@media only screen and (min-height: 700px) {
+  .top {
+    padding-bottom: 300px;
+  }
+}

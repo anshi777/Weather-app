@@ -1,0 +1,37 @@
+{
+  "coord": { "lon": 80.45, "lat": 16.3 },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 303.53,
+    "feels_like": 306.09,
+    "temp_min": 303.53,
+    "temp_max": 304.09,
+    "pressure": 1007,
+    "humidity": 57,
+    "sea_level": 1007,
+    "grnd_level": 1003
+  },
+  "visibility": 10000,
+  "wind": { "speed": 3.24, "deg": 272, "gust": 8.87 },
+  "clouds": { "all": 100 },
+  "dt": 1691336432,
+  "sys": {
+    "type": 2,
+    "id": 2083890,
+    "country": "IN",
+    "sunrise": 1691281212,
+    "sunset": 1691327286
+  },
+  "timezone": 19800,
+  "id": 1270668,
+  "name": "Guntur",
+  "cod": 200
+}
